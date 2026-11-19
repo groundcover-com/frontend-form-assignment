@@ -60,7 +60,7 @@ Update the progress indicator dynamically:
 ### 5. Form Submission
 
 Handle the final form submission:
-- On step 3, clicking "Submit" should validate all fields
+- On step 3, clicking "Submit" should validate the current step's fields
 - If validation passes, `console.log` the complete form data object containing all fields from all three steps
 - Prevent submission if there are any validation errors
 - Ensure all three steps' data is included in the logged output
